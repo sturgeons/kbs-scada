@@ -1,0 +1,10 @@
+                    upateItems.Add(new sendYidaDataClass("空载电流", submitDateTime, Convert.ToDouble(dr["Current"].ToString()), 0.3, 1.9));
+                    upateItems.Add(new sendYidaDataClass("True_Empty电阻", submitDateTime, Convert.ToDouble(dr["True_Empty"].ToString()), 287.7, 292.3));
+                    upateItems.Add(new sendYidaDataClass("Empty电阻", submitDateTime, Convert.ToDouble(dr["Name11Value"].ToString()), 267.7, 272.3));
+                    upateItems.Add(new sendYidaDataClass("Reserve电阻", submitDateTime, Convert.ToDouble(dr["Reserve"].ToString()), 237.7, 242.3));
+                    upateItems.Add(new sendYidaDataClass("1/4电阻", submitDateTime, Convert.ToDouble(dr["1_4"].ToString()), 213.7, 218.3));
+                    upateItems.Add(new sendYidaDataClass("1/2电阻", submitDateTime, Convert.ToDouble(dr["1_2"].ToString()), 159.2, 162.8));
+                    upateItems.Add(new sendYidaDataClass("3/4电阻", submitDateTime, Convert.ToDouble(dr["3_4"].ToString()), 105.5, 108.5));
+                    upateItems.Add(new sendYidaDataClass("Full电阻", submitDateTime, Convert.ToDouble(dr["Full"].ToString()), 68.5, 71.5));
+                    upateItems.Add(new sendYidaDataClass("True_Full电阻", submitDateTime, Convert.ToDouble(dr["True_Full"].ToString()), 50.5, 53.5));
+                    upateItems.Add(new sendYidaDataClass("泄露", submitDateTime, Convert.ToDouble(dr["Supply_Leak"].ToString()), -0.14, 0.35));
